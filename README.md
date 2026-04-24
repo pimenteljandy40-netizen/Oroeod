@@ -138,7 +138,7 @@ local function StartHub()
     local FarmBtn = CreateBtn("FARM MASHMELLOW", UDim2.new(0.63, 0, 0, 65))
     local SellBtn = CreateBtn("SELL MASHMELLOW", UDim2.new(0.63, 0, 0, 130))
     local ToolBtn = CreateBtn("MASHMELLOW TOOL", UDim2.new(0.63, 0, 0, 195))
-    local btnResetWalls= crearBotonEstilo("RESET PAREDES 🧱", 285, Color3.fromRGB(100, 20, 20)
+    local btnResetWalls = crearBotonEstilo("RESET PAREDES 🧱", 285, Color3.fromRGB(100, 20, 20), leftPanel)
 
     local farmActive, sellActive = false, false
     
